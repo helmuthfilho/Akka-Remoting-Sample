@@ -15,8 +15,6 @@ namespace ServerApplication.Worker.Guardian
     {
         private IActorRef _workerRouter;
         private IActorRef _client1Router;
-        private IActorRef _client2Router;
-        private IActorRef _client3Router;
 
         public ServerApplicationGuardian()
         {
